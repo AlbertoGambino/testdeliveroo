@@ -59,7 +59,7 @@
 
                         <div class="restaurant-img-cover">
 
-                            <img src="" alt="">
+                            <img src="../storage/img/rest.png" alt="">
 
                         </div>
                     <div class="tempo-consegna">
