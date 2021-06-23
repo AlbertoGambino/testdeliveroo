@@ -1,7 +1,2 @@
-@extends('layouts.show-restaurant-layout')
+@extends('layouts.protected-restaurant-layout')
 
-@section('content')
-
-
-
-@endsection
