@@ -7,36 +7,26 @@
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <title>Pagina 2</title>
+    <title>show-restaurant-user</title>
 </head>
 <body>
 
     @include('components.header')
 
-    <div class="layout-flex">
+    <div class="my-show-user">
 
-
-        <div>
+        <div class="sidebar-part">
 
              @include('components.sidebar')
 
         </div>
 
 
-        <div>
+        <div class="main-content-part">
 
             @include('components.main-content')
 
         </div>
-
-
-
-
-
-
-
-
-
 
     </div>
 

@@ -1,4 +1,4 @@
-@extends('layouts.home2-layout')
+@extends('layouts.show-restaurant-layout')
 
 @section('content')
 
