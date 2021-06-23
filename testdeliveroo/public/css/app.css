@@ -10943,13 +10943,13 @@ a.text-dark:focus {
 }
 
 .sidebar-nav {
+  height: 100vh;
   background-color: white;
   padding: 0 30px;
-  border-right: 1px solid black;
   display: flex;
   flex-direction: column;
-  border-right: 2px solid #00CCBC;
-  border-bottom: 2px solid #00CCBC;
+  border: 2px solid #00CCBC;
+  border-radius: 5px;
 }
 
 .sidebar-nav > div {
@@ -11210,6 +11210,7 @@ a.text-dark:focus {
 .my-show-user .sidebar-part {
   width: 15%;
   position: fixed;
+  top: 0;
 }
 
 .my-show-user .main-content-part {

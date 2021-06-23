@@ -7,32 +7,15 @@
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <title>show-restaurant-user</title>
+    <title>public</title>
 </head>
 <body>
 
     @include('components.main-header')
 
-    <div class="my-show-user">
+    @yield('content')
 
-        <div class="sidebar-part">
-
-             @include('components.sidebar')
-
-        </div>
-
-
-        <div class="main-content-part">
-
-            @include('components.main-content')
-
-        </div>
-
-    </div>
-
-
-
-    @include('components.footer')
+    @include('components.footer') 
 
 </body>
 </html>

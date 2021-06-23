@@ -1,13 +1,13 @@
 
 
 .sidebar-nav{
+    height: 100vh;
     background-color: white;
     padding: 0 30px;
-    border-right: 1px solid black;
     display: flex;
     flex-direction: column;
-    border-right: 2px solid #00CCBC;
-    border-bottom: 2px solid #00CCBC;
+    border: 2px solid #00CCBC;
+    border-radius: 5px;
 
      & > div{
         margin-top: 20px;
