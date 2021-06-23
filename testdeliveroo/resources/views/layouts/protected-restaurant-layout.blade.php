@@ -6,33 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ asset('/js/app.js') }}"></script> 
 
     <title>protected</title>
 </head>
 <body>
 
-    @include('components.main-header')
+    <div id="app">
 
-    <div class="my-show-user">
+            @include('components.main-header')
 
-        <div class="sidebar-part">
+            <div class="my-show-user">
 
-             @include('components.sidebar')
+                <div class="sidebar-part">
 
-        </div>
+                    @include('components.sidebar')
+
+                </div>
 
 
-        <div class="main-content-part">
+                <div class="main-content-part">
 
-            @include('components.main-content')
+                    @include('components.main-content')
 
-        </div>
+                </div>
+
+            </div>
+
+
+
+            @include('components.footer')
+
 
     </div>
 
 
-
-    @include('components.footer')
 
 </body>
 </html>

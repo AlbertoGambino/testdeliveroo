@@ -96,7 +96,18 @@
         </div>
         <div class="dishes-container">
 
-            dishes list
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
+            <dish-component></dish-component>
 
         </div>
 

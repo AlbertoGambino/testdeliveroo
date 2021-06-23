@@ -11089,10 +11089,12 @@ a.text-dark:focus {
 }
 
 .dishes-container {
+  display: flex;
+  flex-wrap: wrap;
   min-height: 450px;
   width: 100%;
-  background-color: black;
-  color: gold;
+  background-color: white;
+  color: black;
 }
 
 /* stile footer */

@@ -6,16 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ asset('/js/app.js') }}"></script> 
 
     <title>public</title>
 </head>
 <body>
 
-    @include('components.main-header')
+    <div id="app">
 
-    @yield('content')
+        @include('components.main-header')
 
-    @include('components.footer') 
+        @yield('content')
+
+        @include('components.footer')
+
+
+    </div>
+
+ 
 
 </body>
 </html>

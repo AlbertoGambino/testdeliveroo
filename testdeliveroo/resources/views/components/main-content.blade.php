@@ -94,4 +94,18 @@
     <div class="dishes-container">
 
 
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+        <dish-component></dish-component>
+
+
     </div>
