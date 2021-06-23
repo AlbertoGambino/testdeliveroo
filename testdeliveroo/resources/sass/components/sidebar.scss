@@ -1,9 +1,6 @@
 
 
 .sidebar-nav{
-
-    width: 15%;
-    height: calc(100vh - 50px);
     padding: 0 30px;
     border-right: 1px solid black;
     display: flex;
@@ -14,10 +11,6 @@
      & > div{
         margin-top: 20px;
     }
-
-    /* & > div:not(.restaurants){
-        flex: 0 0 auto;
-    } */
 
     .restaurants{
         flex: 1 1 auto;

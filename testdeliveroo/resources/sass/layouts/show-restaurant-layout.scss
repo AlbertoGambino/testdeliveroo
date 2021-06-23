@@ -1,0 +1,22 @@
+@import '../components/sidebar.scss';
+
+@import '../components/main-content.scss';
+
+.my-show-user{
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
+    overflow-y: hidden;
+
+    .sidebar-part{
+        width: 15%;
+    }
+
+    .main-content-part{
+        width: 85%;
+    }
+}
+
+
+
