@@ -11074,7 +11074,11 @@ a.text-dark:focus {
 .protected-restaurant-show-top-container .restaurant-show-info-container .description-right .card-restaurant .restaurant-img-cover {
   width: 100%;
   height: 150px;
-  background-color: purple;
+  background-color: blue;
+}
+
+.protected-restaurant-show-top-container .restaurant-show-info-container .description-right .card-restaurant .restaurant-img-cover img {
+  width: 100px;
 }
 
 .categories-spacer {
