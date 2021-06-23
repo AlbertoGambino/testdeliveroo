@@ -11095,7 +11095,8 @@ a.text-dark:focus {
   color: gold;
 }
 
-.container {
+.layout-flex {
+  width: 100%;
   display: flex;
 }
 

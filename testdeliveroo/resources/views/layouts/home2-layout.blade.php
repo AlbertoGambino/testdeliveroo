@@ -13,19 +13,28 @@
 
     @include('components.header')
 
-    <div class="container-fluid">
+    <div class="layout-flex">
+
 
         <div>
 
-            @include('components.sidebar')
+             @include('components.sidebar')
 
         </div>
+
 
         <div>
 
             @include('components.main-content')
 
         </div>
+
+
+
+
+
+
+
 
 
 
