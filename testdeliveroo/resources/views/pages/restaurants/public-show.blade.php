@@ -59,6 +59,8 @@
 
                         <div class="restaurant-img-cover">
 
+                            <h1>img restaurant</h1>
+
                             <img src="../storage/img/rest.png" alt="">
 
                         </div>

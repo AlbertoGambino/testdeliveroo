@@ -55,7 +55,9 @@
 
                     <div class="restaurant-img-cover">
 
-                        <img src="" alt="">
+                        <h1>img restaurant</h1>
+
+                        <img src="../storage/img/rest.png" alt="">
 
                     </div>
                    <div class="tempo-consegna">
