@@ -10943,6 +10943,7 @@ a.text-dark:focus {
 }
 
 .sidebar-nav {
+  background-color: white;
   padding: 0 30px;
   border-right: 1px solid black;
   display: flex;
@@ -11090,21 +11091,183 @@ a.text-dark:focus {
   color: gold;
 }
 
+/* stile footer */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-bg {
+  background-color: #2E3333;
+  min-height: 300px;
+  width: 100%;
+}
+
+.footer-bg .footer-card-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.footer-bg .footer-card-container .footer-card {
+  background-color: #434848;
+  padding: 15px;
+  width: calc(100%/4.2);
+  height: 430px;
+  color: white;
+  border-radius: 5px;
+}
+
+.footer-bg .footer-card-container .footer-card li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.footer-bg .footer-card-container .footer-card li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bg .footer-card-container .footer-card li a:hover,
+.footer-bg .footer-card-container .footer-card li a:focus,
+.footer-bg .footer-card-container .footer-card li a:active {
+  color: #42f1e9;
+}
+
+.footer-bg .footer-card-container .footer-card .footer-bolder {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.footer-bg .footer-card-container .footer-card img {
+  width: 60%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.footer-bg .icons-footer {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.footer-bg .icons-footer .facebook {
+  color: white;
+  padding: 0 5px;
+  font-size: 22px;
+}
+
+.footer-bg .icons-footer .facebook:hover,
+.footer-bg .icons-footer .facebook:focus,
+.footer-bg .icons-footer .facebook:active {
+  color: #2a20b8;
+}
+
+.footer-bg .icons-footer .twitter {
+  color: white;
+  padding: 0 5px;
+  font-size: 22px;
+}
+
+.footer-bg .icons-footer .twitter:hover,
+.footer-bg .icons-footer .twitter:focus,
+.footer-bg .icons-footer .twitter:active {
+  color: #48d0e2;
+}
+
+.footer-bg .icons-footer .instagram {
+  color: white;
+  padding: 0 5px;
+  font-size: 22px;
+}
+
+.footer-bg .icons-footer .instagram:hover,
+.footer-bg .icons-footer .instagram:focus,
+.footer-bg .icons-footer .instagram:active {
+  background: -webkit-linear-gradient(#e41bc9, #f3af1d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-bg .icons-footer .copyright-footer {
+  color: gray;
+}
+
 .my-show-user {
-  /* height: calc(100vh - 50px); */
   width: 100%;
   display: flex;
   border: 1px solid red;
-  /* overflow-y: hidden; */
 }
 
 .my-show-user .sidebar-part {
   position: fixed;
   width: 15%;
+  position: fixed;
 }
 
 .my-show-user .main-content-part {
   width: 85%;
   margin-left: 15%;
+}
+
+#dashboard {
+  display: flex;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+#dashboard-nav {
+  width: 15%;
+  height: 100%;
+  padding: 0 30px;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#dashboard-nav > div {
+  margin-top: 20px;
+}
+
+#dashboard-nav > div:not(.restaurants) {
+  flex: 0 0 auto;
+}
+
+#dashboard-nav .restaurants {
+  flex: 1 1 auto;
+  min-height: 100px;
+  overflow-y: auto;
+}
+
+#dashboard-main {
+  width: 85%;
+  height: 100%;
+}
+
+#home-title {
+  text-align: center;
+}
+
+#home-title h1 {
+  color: red;
+}
+
+#main-header {
+  background-color: lightskyblue;
+}
+
+.form-page-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

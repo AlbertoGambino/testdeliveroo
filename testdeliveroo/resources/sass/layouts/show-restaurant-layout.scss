@@ -2,17 +2,18 @@
 
 @import '../components/main-content.scss';
 
+@import '../components/footer.scss';
+
 .my-show-user{
-    /* height: calc(100vh - 50px); */
     width: 100%;
     display: flex;
     border: 1px solid red;
-    /* overflow-y: hidden; */
 
     .sidebar-part{
 
         position: fixed;
         width: 15%;
+        position: fixed;
     }
 
     .main-content-part{

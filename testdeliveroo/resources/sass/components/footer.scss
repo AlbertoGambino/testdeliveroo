@@ -1,0 +1,126 @@
+/* stile footer */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-bg{
+
+    background-color: #2E3333;
+    min-height: 300px;
+    width: 100%;
+
+    .footer-card-container{
+
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+
+       .footer-card{ 
+
+            background-color: #434848;
+            padding: 15px;
+            width: calc(100%/4.2);
+            height: 430px;
+            color: white;
+            border-radius: 5px;
+
+            li{
+
+                list-style: none;
+                padding: 5px 0;
+
+                a{
+
+                    text-decoration: none;
+                    color: white;
+                        &:hover,
+                        &:focus,
+                        &:active {
+                        color: #42f1e9;
+                        }
+                }
+
+            }
+
+            .footer-bolder{
+
+                font-weight: bolder;
+                font-size: 1.3rem;
+                margin-bottom: 10px;
+            }
+
+            img{
+                width: 60%;
+                border: 1px solid white;
+                border-radius: 5px;
+                }
+        }
+
+    }
+
+    .icons-footer{
+
+
+        width: 60%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 15px;
+
+            .facebook{
+
+            color: white;
+            padding: 0 5px;
+            font-size: 22px;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: #2a20b8;
+                }  
+                
+            }
+                            
+            .twitter{
+
+            color: white;
+            padding: 0 5px;
+            font-size: 22px;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: #48d0e2;
+                }
+            }
+
+            .instagram{
+
+            color: white;
+            padding: 0 5px;
+            font-size: 22px;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    
+                    background: -webkit-linear-gradient(rgb(228, 27, 201), rgb(243, 175, 29));
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            
+            }
+            .copyright-footer{
+
+            color: gray;
+            }
+        }
+
+
+}

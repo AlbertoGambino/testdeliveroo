@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    @include('components.header')
+    @include('components.main-header')
 
     <div class="my-show-user">
 
